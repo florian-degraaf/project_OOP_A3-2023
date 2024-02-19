@@ -1,0 +1,58 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>projet_final</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>projet_final</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="bdd_test.vcxproj" File="bdd_test.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">bdd_test.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="formarticle.cpp">formarticle.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="formclient.cpp">formclient.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="formcommande.cpp">formcommande.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="forminfoarticle.cpp">forminfoarticle.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Formpaiement.cpp">Formpaiement.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="LoginForm.cpp">LoginForm.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="MainForm.cpp">MainForm.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="MyForm.cpp">MyForm.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Program.cpp">Program.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="RegisterForm.cpp">RegisterForm.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="formtva.cpp">formtva.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="formlignecommand.cpp">formlignecommand.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="formpersonnel.cpp">formpersonnel.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="activeClient.h">activeClient.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="formarticle.h">formarticle.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="formarticle.resx">formarticle.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="formclient.h">formclient.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="formclient.resx">formclient.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="formcommande.h">formcommande.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="formcommande.resx">formcommande.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="forminfoarticle.h">forminfoarticle.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="forminfoarticle.resx">forminfoarticle.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Formpaiement.h">Formpaiement.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="LoginForm.h">LoginForm.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="LoginForm.resx">LoginForm.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="MainForm.h">MainForm.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="MainForm.resx">MainForm.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="personnel.h">personnel.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="RegisterForm.h">RegisterForm.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="RegisterForm.resx">RegisterForm.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="User.h">User.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="formtva.h">formtva.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="formtva.resx">formtva.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="formlignecommand.h">formlignecommand.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="formlignecommand.resx">formlignecommand.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="formpersonnel.h">formpersonnel.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SQLScript.sql">SQLScript.sql</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
